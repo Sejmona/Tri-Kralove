@@ -10,26 +10,23 @@ body {
 }
 
 h1 {
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 20px;
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
   text-align: center;
   margin-bottom: 1px;
 }
-/*.hlavicka {
-  background-image: url(image1.jpg);
-}*/
+.hlavicka {
+  background-image: url(titulka.jpg);
+  padding: 20px;
+}
 .fotka img {
-  height: 500px;
+  height: 450px;
   width: 500px;
-  border-radius: 20px 20px 20px 20px;
 }
 .zacithrat {
   display: flex;
   flex-direction: column;
-  flex-basis: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
+  margin: auto;
   justify-content: center;
   justify-items: center;
   background-color: #424439;
@@ -37,7 +34,7 @@ h1 {
   font-size: 30px;
   text-decoration: none;
   text-align: center;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Caveat', cursive;
   max-width: 500px;
   border-radius: 0px 0px 20px 20px;
 }
@@ -88,13 +85,46 @@ h1 {
   color: #ffffff;
   text-decoration: none;
   padding: 5px 10px;
+  font-family: 'Caveat', cursive;
 }
 .menu a:hover,
 .menu a:focus {
-  background-color: aqua;
+  background-color: rgb(44, 37, 52);
 }
 .pribeh img {
-  height: 250px;
-  width: 250px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+.clanek {
+  font-size: 20px;
+  font-family: 'Caveat', cursive;
+  text-align: justify;
+  color: #ffffff;
+}
+.kontakty li {
+  font-size: 30px;
+  font-family: 'Caveat', cursive;
+  color: #ffffff;
+  text-decoration: none;
+}
+h3 {
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 1px;
+}
+h4 {
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 1px;
+}
+.kontaktni-fotka img {
+  width: 500px;
+  height: 400px;
+  border-radius: 20px 20px;
 }
