@@ -98,3 +98,15 @@ h1 {
   width: 250px;
   border-radius: 50%;
 }
+
+.Prerekvizity {
+  display: inline-block;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+}
+
+.goal {
+  display: inline-block;
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+}
