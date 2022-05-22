@@ -106,7 +106,7 @@ h1 {
   color: #ffffff;
 }
 .kontakty a {
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Caveat', cursive;
   color: #ffffff;
   text-decoration: none;
@@ -140,9 +140,22 @@ h4 {
   font-family: 'Caveat', cursive;
   font-size: 20px;
 }
-
+h2 {
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+}
 .goal {
   display: inline-block;
   font-family: 'Caveat', cursive;
-  font-size: 25px;
+  font-size: 20px;
+}
+.prerekvizitni-fotka img {
+  width: 500px;
+  height: 400px;
+  border-radius: 20px 20px;
+}
+.cil-hry-fotka img {
+  width: 500px;
+  height: 400px;
+  border-radius: 20px 20px;
 }
