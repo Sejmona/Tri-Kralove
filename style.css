@@ -18,11 +18,12 @@ h1 {
 .hlavicka {
   background-image: url(titulka.jpg);
   padding: 20px;
-}
-.fotka img {
-  height: 450px;
+  background-repeat: inherit;
+  background-size: cover;
+  height: 550px;
   width: 500px;
 }
+
 .zacithrat {
   display: flex;
   flex-direction: column;

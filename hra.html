@@ -9,8 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lobster&display=swap" rel="stylesheet">
+<script type="module" src="hra.js"></script> 
+<meta charset="utf-8" />
+<script src="https://api.mapy.cz/loader.js"></script>
+	<script>Loader.load()</script>
+
   </head>
-  <body>
+  <body> 
     <div class="kontrolky">
       <span class="hraje"></span>
         <button class="button domecek">
@@ -20,10 +25,14 @@
         </button>
       </div>
     </div>
-     <!--fotka-->
-     <div class="flex-container">
-      <div class="fotka">
-      <img src="klad2.jpg" alt="mapa" />
-      </div>
+    <!--mapa
+    <div id="mapa" style="width:500px; height:400px;"></div>-->
+	<script type="text/javascript">
+		var stred = SMap.Coords.fromWGS84(14.41, 50.08);
+		var mapa = new SMap(JAK.gel("mapa"), stred, 10);
+		mapa.addDefaultLayer(SMap.DEF_BASE).enable();
+		mapa.addDefaultControls();	      	      
+	</script> 
+  <div id="m" style="height:380px"></div>
   </body>
 </html>
